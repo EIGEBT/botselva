@@ -19,7 +19,6 @@ apt update
 apt upgrade
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt install lua5.2
 sudo  wget https://luarocks.org/releases/luarocks-2.4.3.tar.gz
 sudo  tar zxpf luarocks-2.4.3.tar.gz
 cd luarocks-2.4.3
@@ -56,17 +55,15 @@ sudo apt-get install software-properties-common -y
 sudo apt-get install libnotify-dev -y 
 sudo apt-get install lua-space -y
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
-apt install python3.8
+apt install python3
 apt install python3-pip
-python3.8 -m pip install -U pip
-python3.8 -m pip install -U setuptools
-python3.8 -m pip install yt-dlp -U
-python3.8 -m pip install ffmpeg 
+pip3 install yt-dlp
+pip3 install ffmpeg 
 apt install ffmpeg 
 apt install gnome-calculator
-python3.8 -m pip install gtts -U
-python3.8 -m pip install -U nsfw-detector
-python3.8 -m pip install -U opencv-python
+pip3 install gtts
+apt install lua5.2
+apt install redis-server
 sudo apt-get update 
 sudo apt-get upgrade -y
 cd ..
