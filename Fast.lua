@@ -1075,7 +1075,7 @@ end--data.sender
 end--Run
 function callback(data)
 if data and data.Fastbots and data.Fastbots == "updateNewMessage" then
-if tonumber(data.message.sender_id.user_id) == tonumber(Fast) then
+if tonumber(data.message.sender_id.chat_id) == tonumber(Fast) then
 return false
 end
 Run(data.message,data.message)
